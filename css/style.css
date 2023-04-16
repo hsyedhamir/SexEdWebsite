@@ -1,3 +1,81 @@
+
+.bodyFeed {
+  max-width: 414px;
+  max-height: none;
+  background-image: linear-gradient(to bottom right, #AFA5FA, #FFB6AB);
+  font-family: 'Jost';
+}
+
+.indexBody {
+  max-width: 414px;
+  max-height: none;
+  font-family: 'Jost';
+}
+
+.logoHeader{
+  width: 254.14px;
+height: 50px;
+left: 77px;
+top: 89px;
+margin-bottom: 39px;
+margin-left: 28px;
+
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+ /* Style the navigation menu */
+ .topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  margin-top: 8px;
+  margin-right: 8px;
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+} 
+
+
+
+
+
+
+
+
+
 .textCircle {
   width: 130px;
   height: 130px;
@@ -16,6 +94,7 @@
   padding-top: 40px;
 }
 
+/*data circles*/
 .workContainer {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -70,37 +149,6 @@
 
   color: #0D0D0D;
 }
-
-
-
-/*
-.firstSexpert{
-    max-width: 100%;
-    
-    height: auto;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5%;
-}
-.secondSexpert{
-    max-width: 60%;
-    max-height: 20%;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5%;
-}
-.thirdSexpert{
-max-width: 60%;
-height: auto;
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5%;
-}
-*/
-
 
 /* Style The Dropdown Button */
 .dropbtn {
@@ -215,7 +263,8 @@ display: block;
 }
 
 .card {
-  margin: 10px;
+  margin-top: 18px;
+  margin: 17px;
   font-family: 'Jost';
   font-weight: bold;
   background: #FBFAFA;
@@ -223,19 +272,22 @@ display: block;
   border-radius: 6px;
 }
 
+
+
 .seeMore {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px 48px;
   gap: 2px;
-  margin: 21px;
+  margin-top: 32px;
+  margin-left: 112px;
   width: 167px;
   height: 47px;
   left: 112px;
   top: 1987px;
 
-  background: #A43E32;
+  background: #040072;
   border-radius: 6px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
   border: none;
@@ -250,9 +302,6 @@ display: block;
   margin: 0 auto;
   width: 374px;
   height: 577px;
-  /* left: 8px;
-  top: 177px;
-  margin-bottom: 400px; */
   background: rgba(78, 76, 185, 0.3);
   border-radius: 15px;
   display: flex;
@@ -269,9 +318,6 @@ display: block;
 
 .visionPara {
   height: 232px;
-  /* left: 24px;
-  right: 24px;
-  top: 308px; */
   padding: 10px;
   /* sexsupport/h3 */
   font-family: 'Jost';
@@ -280,10 +326,6 @@ display: block;
   font-size: 20px;
   line-height: 29px;
   text-align: center;
-  /* display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center; */
   letter-spacing: 0.035em;
 }
 
@@ -292,36 +334,18 @@ display: block;
 }
 
 .questionButt {
-  /* display: flex;
-  flex-direction: row;
-  align-items: flex-start; */
-  /* padding: 12px 48px; */
-  /* gap: 2px; */
   margin: 30px;
   color: #ffffff;
-  /* position: absolute; */
   width: 224px;
   height: 47px;
-  /* left: 77px;
-  top: 480px; */
   background: #040072;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
 }
 
 .artButt {
-  /* display: flex;
-  flex-direction: row;
-  align-items: flex-start; */
-  /* padding: 12px 48px; */
-  /* gap: 2px; */
-
-  /* position: absolute; */
   width: 224px;
   height: 47px;
-  /* left: 77px;
-  top: 543px; */
-
   background: #040072;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
@@ -332,9 +356,6 @@ display: block;
   box-sizing: border-box;
   width: 315px;
   height: 321px;
-  /* left: 61px;
-  top: 51px; */
-  /* margin: 105px; */
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.94);
   border: 0.5px solid #808080;
@@ -342,14 +363,17 @@ display: block;
   border-radius: 24px;
 }
 
+.joinUsBox{
+ padding-top: 10px;
+ padding-bottom: 50px;
+}
+
+
 .joinUsText {
   margin: 20px auto;
   width: 235px;
   height: 83px;
-  /* left: 96px;
-  top: 99px; */
   padding-top: 28px;
-  /* padding-left: 40px; */
   font-family: 'Jost';
   font-style: normal;
   font-weight: bold;
@@ -364,16 +388,9 @@ display: block;
 }
 
 .questionButt2 {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 48px;
-  gap: 2px; */
   color: #ffffff;
   width: 224px;
   height: 47px;
-  /* left: 77px;
-  top: 580px; */
   margin: 25px;
   background: #040072;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
@@ -381,17 +398,9 @@ display: block;
 }
 
 .artButt2 {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 48px;
-  gap: 2px; */
 
   width: 224px;
   height: 47px;
-  /* left: 77px;
-  top: 543px; */
-  /* margin: 65px; */
   background: #040072;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
@@ -408,18 +417,19 @@ display: block;
 }
 
 .carousel {
-  /* position: absolute; */
+  
   display: flex;
   flex-direction: row;
   width: 100%;
   margin: 50px auto;
 
   height: 303px;
-  /* left: 0px;
-  top: 786px; */
+ 
   overflow-x: scroll;
   background: conic-gradient(from 236.28deg at 102.16% -6.09%, #FFB6AB -103.06deg, rgba(175, 165, 250, 0.81) 34.76deg, #FFFFFF 256.91deg, #FFB6AB 256.94deg, rgba(175, 165, 250, 0.81) 394.76deg);
+
 }
+
 
 .sexpert {
   display: grid;
@@ -434,8 +444,6 @@ display: block;
   width: 180px;
   height: 217px;
   object-fit: cover;
-  /* left: 12px;
-  top: 43px; */
   border-radius: 15px;
   padding: 12px;
 
@@ -443,22 +451,7 @@ display: block;
 }
 
 .sexpertQuote {
-  /* height: 150px;
-  left: 104px;
-  right: 1394px;
-  top: 68px;
-  sexsupport/small
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 17px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.035em;
-  sexsupport/eerie black
-  color: #181818; */
+
   font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
@@ -477,25 +470,6 @@ display: block;
 }
 
 .sexpertName {
-  /* display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 10px;
-  gap: 10px;
-  position: absolute;
-  width: 257px;
-  height: 58px;
-  left: 78px;
-  top: 176px;
-  background: rgba(251, 250, 250, 0.8);
-  border-radius: 4px;
-  font-family: 'Playfair Display';
-  font-style: italic;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 16px;
-  display: flex;
-  align-items: center; */
   background: rgba(251, 250, 250, 0.8);
   border-radius: 4px;
   font-family: 'Playfair Display';
@@ -512,15 +486,379 @@ display: block;
   margin-top: -45px;
 }
 
-.bodyFeed {
-  max-width: 414px;
-  max-height: none;
-  background-image: linear-gradient(to bottom right, #AFA5FA, #FFB6AB);
-  font-family: 'Jost';
+/*team memebers code*/
+
+
+.teamMembers{
+  width: 392px;
+height: 1721px;
+left: 4px;
+top: 45px;
+background: linear-gradient(180deg, #DAD6FD 0%, #FBFAFA 47.4%);
+display: grid;
+grid-template-columns:50% 50%;
+grid-template-rows: 50% 50%;
 }
 
-.indexBody {
-  max-width: 414px;
-  max-height: none;
-  font-family: 'Jost';
+.teamWord{
+ margin: 10.5px;
+width: 108px;
+height: 94px;
+left: 24.49px;
+top: 60px;
+
+/* sexsupport/h1 */
+
+font-family: 'Playfair Display';
+font-style: italic;
+font-weight: 600;
+font-size: 32px;
+line-height: 43px;
+display: flex;
+align-items: center;
+
+/* sexsupport/eerie black */
+
+color: #181818;
+
 }
+
+.sofiaImg{
+  width: 135px;
+height: 179px;
+left: 34px;
+top: 170px;
+margin: 10px;
+border-radius: 5px;
+grid-area: 1/2;
+}
+
+.sofiaName{
+  width: 169px;
+height: 42px;
+left: 164px;
+top: 186px;
+margin: 10px;
+font-family: 'Playfair Display';
+font-style: italic;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+display: grid;
+align-items: center;
+grid-area: 2/2;
+/* sexsupport/eerie black */
+
+color: #181818;
+
+}
+
+.sofiaTitle{
+  margin: 10px;
+}
+
+.sofiaBio{
+  width: 208px;
+height: 102px;
+left: 164px;
+top: 251px;
+
+/* sexsupport/small */
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+display: flex;
+align-items: center;
+letter-spacing: 0.035em;
+margin: 10px;
+/* sexsupport/eerie black */
+
+color: #181818;
+
+}
+
+.rachealImg{
+  margin: 10px;
+  width: 134px;
+height: 179px;
+left: 24px;
+top: 365px;
+border-radius: 5px;
+}
+
+.rachealName{
+width: 169px;
+height: 42px;
+left: 164px;
+top: 381px;
+margin: 10px;
+font-family: 'Playfair Display';
+font-style: italic;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+/* sexsupport/eerie black */
+
+color: #181818;
+}
+
+.rachealTitle{
+margin: 10px;
+}
+
+.rachealBio{
+  width: 208px;
+height: 102px;
+left: 164px;
+top: 251px;
+
+/* sexsupport/small */
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+display: flex;
+align-items: center;
+letter-spacing: 0.035em;
+margin: 10px;
+/* sexsupport/eerie black */
+
+color: #181818;
+
+}
+
+.hussainiImg{
+  margin: 10px;
+  width: 134px;
+height: 179px;
+left: 24px;
+top: 365px;
+border-radius: 5px;
+}
+
+.hussainiName{
+  width: 169px;
+height: 42px;
+left: 164px;
+top: 186px;
+margin: 10px;
+font-family: 'Playfair Display';
+font-style: italic;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+display: grid;
+align-items: center;
+grid-area: teamName;
+/* sexsupport/eerie black */
+
+color: #181818;
+
+}
+
+.hussainiTitle{
+  margin: 10px;
+}
+
+.hussainiBio{
+  width: 208px;
+height: 102px;
+left: 164px;
+top: 251px;
+
+/* sexsupport/small */
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+display: flex;
+align-items: center;
+letter-spacing: 0.035em;
+margin: 10px;
+/* sexsupport/eerie black */
+
+color: #181818;
+
+}
+
+.noamiImg{
+  margin: 10px;
+  width: 134px;
+height: 179px;
+left: 24px;
+top: 365px;
+border-radius: 5px;
+}
+
+.noamiName{
+  width: 169px;
+height: 42px;
+left: 164px;
+top: 186px;
+margin: 10px;
+font-family: 'Playfair Display';
+font-style: italic;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+display: grid;
+align-items: center;
+grid-area: teamName;
+/* sexsupport/eerie black */
+
+color: #181818;
+
+}
+
+.noamiTitle{
+  margin: 10px;
+}
+
+.noamiBio{
+  width: 208px;
+height: 102px;
+left: 164px;
+top: 251px;
+
+/* sexsupport/small */
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+display: flex;
+align-items: center;
+letter-spacing: 0.035em;
+margin: 10px;
+/* sexsupport/eerie black */
+
+color: #181818;
+
+}
+
+footer{
+  width: 390px;
+height: 483px;
+left: 0px;
+bottom: 0px;
+padding-top: 20px;
+background: rgba(175, 165, 250, 0.81);
+}
+
+
+/*footer code*/
+.contact{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+
+/* sexsupport/eerie black */
+
+color: #181818
+}
+
+.about{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+
+/* sexsupport/eerie black */
+
+color: #181818
+}
+
+.login{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+
+/* sexsupport/eerie black */
+
+color: #181818
+}
+
+.media{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+
+/* sexsupport/eerie black */
+
+color: #181818
+}
+
+.faq{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+
+/* sexsupport/eerie black */
+
+color: #181818
+}
+
+
+
+.logoFooter{
+  width: 254.14px;
+height: 50px;
+left: 77px;
+top: 391px;
+margin: 77px;
+
+}
+
+.card-link{
+  display: inline-block;
+
+padding-left: 10px;
+padding-top: 2px;
+padding-right: 10px;
+padding-bottom: 2px;
+
+max-width: fit-content;
+color:white;
+text-decoration: none;
+left: 45.53%;
+right: 29.61%;
+top: 103.69%;
+bottom: -13.36%;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+letter-spacing: 0.035em;
+/* sexsupport/iris */
+
+background: #4E4CB9;
+border-radius: 12px;
+}
+
+

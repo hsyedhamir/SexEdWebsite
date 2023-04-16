@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SexSupport</title>
@@ -14,30 +15,34 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 <body class="indexBody">
-  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <a href="/html/feed.html"></a>
+  
+</body>
+<header>
+   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-  <!-- Top Navigation Menu -->
-  <div class="topnav">
-    <a href="index.html" class="active">Logo</a>
-
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-    </div>
-
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="index.html" class="logoHeader"><img src="/images/sexsupportblack.png" alt="SexSupport Logo in Black" class="logoHeader"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
   </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> 
+</header>
+
+
+
 
   <!-- Vision Statement-->
   <div class="hero-image">
@@ -53,46 +58,7 @@
     </div>
   </div>
 
-  <!-- Carousel Code-->
-  <!-- <div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/images/Jordan-Rullo-headshot-sex-therapist.jpg" class="firstSexpert" alt="First Expert Image">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Expert</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/images/sextherapist2.jpg" class="secondSexpert" alt="Second Expert Image">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Expert</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/images/sextherapist3.jpg" class="thirdSexpert" alt="Third Expert Image">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Expert</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  -->
+ 
 
   <div class="carousel">
     <div class="wrapper">
@@ -140,27 +106,69 @@
 
 
   <!--team image-->
-  <img src="..." alt="..." class="...">
-
-
-
-  <!-- ask question part2-->
-  <div class="joinUs">
-    <div class="hero-text">
-      <p class="joinUsText">Join us making your questions, commenting and share your experiences</p>
-
-      <!-- Ask question and share article button-->
-      <button onclick="window.location.href='feed.html'" class="questionButt2">Pose a question?</button>
-      <button class="artButt2">Share an article</button>
+  <div  class="teamMembers">
+    <div>
+      <div class="teamWord">Team</div>
+      <div class="sofia">
+        <div class="sofiaImg"><img src="/images/Captura de Pantalla 2023-02-26 a la(s) 16.07.57.png" class="sofiaImg" alt="Image of Sofia"></div>
+        <div  class="sofiaName"> Sofia Marcone</div>
+        <div class="sofiaTitle">UX Research/UI</div>
+        <div class="sofiaBio">After noticing a deficit in reliable and diverse sex education, Sofia came up with the idea of SexSupport. She led the team to create what she envisioned for an inclusive site for all bodies. </div>
+      </div>
+      <div class="racheal">
+        <div class="rachealImg"><img src="/images/rachealfpfp.jpg" class="rachealImg" alt="Image of Racheal"></div>
+        <div class="rachealName">Racheal Arewa</div>
+        <div class="rachealTitle">UX Research</div>
+        <div class="rachealBio">The main researcher, Racheal interviewed and analyzed what was missing in today’s sexual education and what people are looking for in a sex ed website. </div>
+      </div>
+      <div class="hussaini">
+        <div class="hussainiImg"><img src="/images/IMG_8245.jpg" alt="Image Of Hussaini" class="hussainiImg"></div>
+        <div class="hussainiName">Hussaini Syedhamir</div>
+        <div class="hussainiTitle">UI/UX Developer</div>
+        <div class="hussainiBio">Hussaini coded SexSupport the way you see it before you today. He also ideated the prototype and the way users interact with the site.</div>
+      </div>
+      <div class="noami">
+        <div class="noamiImg"><img src="/images/noamipfp.png" alt="Image Of Noami" class="noamiImg"></div>
+        <div class="noamiName">Noami Guerrero</div>
+        <div class="noamiTitle">UX Research/UI</div>
+        <div class="noamiBio">Noami provided much of the context for the tone and imagery for what a sex ed website looks like and ideated the final style for SexSupport.</div>
+      </div>
     </div>
   </div>
 
 
+
+
+  <!-- ask question part2-->
+  <div class="joinUsBox">
+    <div class="joinUs">
+      <div class="hero-text">
+        <p class="joinUsText">Join us making your questions, commenting and share your experiences</p>
+  
+        <!-- Ask question and share article button-->
+        <button onclick="window.location.href='feed.html'" class="questionButt2">Pose a question?</button>
+        <button class="artButt2">Share an article</button>
+      </div>
+    </div>
+  </div>
+  
+
+
   <!--footer code-->
   <footer>
-    <p class="footer">About Us...</p>
+    <p class="contact">Contact Us
+    </p>
+    <p class="about">About Us
+    </p>
+    <p class="login">Log In
+    </p>
+    <p class="media">Media / Press
+    </p>
+    <p class="faq">FAQs
+    </p>
+    <img src="/images/sexsupportblack.png" alt="SexSupport Logo in Black" class="logoFooter">
   </footer>
-
+  
 
 
 
@@ -174,6 +182,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
