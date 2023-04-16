@@ -245,7 +245,7 @@ width: 374px;
 height: 577px;
 left: 8px;
 top: 177px;
-
+margin-bottom: 400px;
 background: rgba(78, 76, 185, 0.3);
 border-radius: 15px;
 }
@@ -392,6 +392,11 @@ color: #181818;
 }
 
 .carousel{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "sex1 q1" "sex2 q2" "sex3 q3";
+  display: grid;
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -400,7 +405,7 @@ color: #181818;
 
   height: 303px;
   left: 0px;
-  top: 786px;
+  top: 686px;
 overflow-x: scroll;
 background: conic-gradient(from 236.28deg at 102.16% -6.09%, #FFB6AB -103.06deg, rgba(175, 165, 250, 0.81) 34.76deg, #FFFFFF 256.91deg, #FFB6AB 256.94deg, rgba(175, 165, 250, 0.81) 394.76deg);
 }
@@ -415,10 +420,10 @@ padding: 12px;
 }
 
 .firstSexpertQuote{
-  height: 150px;
-left: 104px;
-right: 1394px;
-top: 68px;
+  height: 20px;
+left: 4F04px;
+right: 1494px;
+top: -100px;
 position: relative;
 /* sexsupport/small */
 
